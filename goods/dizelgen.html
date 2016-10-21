@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/cssstyle.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ <style type = "text/css">
+.line {
+    border-right: 1px solid red; /* Линия справа от текста */
+    padding: 0 10px;  /* Расстояние между линией и текстом */
+    margin: 0 10%; /* Отступы от края до линии */
+   }
+  </style>
+  </head>
+  <body>
+  <div class="container">
+   <div class ="row">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+           <button type = "button" class="navbar-toggle" data-toggle="collapse" data-target="#resp-menu">
+           <span class="sr-only">Открыть навигацию</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           </button>
+        <div class="collapse navbar-collapse" id="resp-menu">
+          <ul class="nav navbar-nav">
+          <li><a href="index.html">Название магазина</a></li>
+          <li><a href="../glavnoe.html">Главная</a></li>
+          <li><a href="../kak svyazatsya.html">Как связаться</a></li>
+          <li><a href="../O nas.html">О нас</a></li>
+          </ul>
+        </div>
+        </div>
+      </div> 
+   </div>
+  </div>
+  </div>
+  <section class="col-lg-20" style="margin-top: -20px">
+  <div class="jumbotron hidden-xs" >
+    <blockquote>
+      <div class="moduletable">
+            <div id="shares" class="hidden-xs">
+    <div class="container">
+                    <div class="col-xs-4 shares-container">
+                <div class="col-xs-12 shares-block">
+                        <div class="header">
+                        <div class="line">
+        <strong>Утилизация</strong>
+        </div>
+    </div>
+    <div class="body">
+    <div class="line">
+        Получите до 50 000 рублей скидки на покупку - сдайте б/у двигатель! <br />
+        </div>
+          </div>
+                </div>
+            </div>
+                    <div class="col-xs-4 shares-container">
+                <div class="col-xs-12 shares-block">
+                        <div class="header">
+                        <div class="line">
+        <strong>Гарантия возврата денег</strong>
+        </div>
+    </div>
+    <div class="body">   
+    <div class="line">     
+  Если товар Вам не подойдет, мы вернем &nbsp;деньги
+  </div>
+            </div>
+                </div>
+            </div>
+                    <div class="col-xs-4 shares-container">
+                <div class="col-xs-12 shares-block">
+                        <div class="header">
+                        <div class="line">
+                         <strong>Доставка</strong>
+                         </div>
+    </div>
+    <div class="body">
+    <div class="line">
+        Производим доставку в течении 5 дней            </div>
+                </div>
+                </div>
+            </div>
+            </div>
+</div>
+</div>
+</blockquote>
+</div>
+</section>
+<div class="container">
+  <div data-columns >
+     <div class= "col-lg-3 col-md-2 col-sm-3">
+      <div class="thumbnail">
+         <img class="img responsive" src="..\goods\img\thumb_wartsila-v16bzshr-1200-kva.JPG">
+         <div class="caption">
+           <a href="#myModal" data-toggle="modal"><FONT face="Impact" color = "black"><center>Wartsila V16BZSHR - 1200 кВт</center></FONT></a>
+         </div>
+      </div>
+      <div id="myModal" class="modal fade">
+      <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Заголовок модального окна -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">Wartsila V16BZSHR - 1200 кВт</h4>
+      </div>
+      <!-- Основное содержимое модального окна -->
+      <div class="modal-body">
+      <img src="..\goods\img\thumb_wartsila-v16bzshr-1200-kva.JPG" align="right">
+        Наличие:есть в наличии
+<br>Цена по запросу.<br>
+<br>Год изготовления: 1981 г.<br>
+<br>Состояние: б/у<bt>
+<br>Наработка: 1002 часов<br>
+<br>Мощность: 1200 кВт<br>
+<a href="#spoiler-1" data-toggle="collapse" class="btn btn-primary">Позвонить и заказать</a>
+<div class="collapse" id="spoiler-1">
+  <div class="well">
+    <p>8(999)999-99-99</p>
+  </div>
+</div>
+      </div>
+      <!-- Футер модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+       <div class= "col-lg-3 col-md-2 col-sm-3">
+      <div class="thumbnail">
+         <img class="img responsive" src="..\goods\img\thumb_wartsila-ud25v12-s5d-1000-kva.JPG">
+         <div class="caption">
+           <a href="#myModal1" data-toggle="modal"><FONT face="Impact" color = "black"><center>Wartsila UD25V12 S5D - 1000 кВт</center></FONT></a>
+         </div>
+         </div>
+      <div id="myModal1" class="modal fade">
+      <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Заголовок модального окна -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">Wartsila UD25V12 S5D - 1000 кВт</h4>
+      </div>
+      <!-- Основное содержимое модального окна -->
+      <div class="modal-body">
+      <img src="..\goods\img\thumb_wartsila-ud25v12-s5d-1000-kva.JPG" align="right">
+        Наличие:есть в наличии
+<br>Цена по запросу.<br>
+<br>Год изготовления: 1993 г.<br>
+<br>Состояние: б/у<bt>
+<br>Наработка: 1200 часов<br>
+<br>Мощность: 1000 кВт<br>
+<a href="#spoiler-2" data-toggle="collapse" class="btn btn-primary">Позвонить и заказать</a>
+<div class="collapse" id="spoiler-2">
+  <div class="well">
+    <p>8(999)999-99-99</p>
+  </div>
+</div>
+      </div>
+      <!-- Футер модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+       <div class= "col-lg-3 col-md-3 col-sm-3">
+      <div class="thumbnail">
+         <img class="img responsive" src="..\goods\img\thumb_wartsila-ud25l06-500-kva.JPG">
+         <div class="caption">
+           <a href="#myModal2" data-toggle="modal"><FONT face="Impact" color = "black"><center>Wartsila UD25L06 - 500 кВт</center></FONT></a>
+         </div>
+      </div>
+      <div id="myModal2" class="modal fade">
+      <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Заголовок модального окна -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">Wartsila UD25L06 - 500 кВт</h4>
+      </div>
+      <!-- Основное содержимое модального окна -->
+      <div class="modal-body">
+      <img src="..\goods\img\thumb_wartsila-ud25l06-500-kva.JPG" align="right">
+        Наличие:есть в наличии
+<br>Цена по запросу.<br>
+<br>Год изготовления: 1990 г.<br>
+<br>Состояние: б/у<bt>
+<br>Наработка: 3466 часов<br>
+<br>Мощность: 500 кВт<br>
+<a href="#spoiler-3" data-toggle="collapse" class="btn btn-primary">Позвонить и заказать</a>
+<div class="collapse" id="spoiler-3">
+  <div class="well">
+    <p>8(999)999-99-99</p>
+  </div>
+</div>
+      </div>
+      <!-- Футер модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+       <div class= "col-lg-3 col-md-3 col-sm-3">
+      <div class="thumbnail">
+         <img class="img responsive" src="..\goods\img\thumb_wartisla-ud150v12-590-kva.JPG">
+         <div class="caption">
+           <a href="#myModal3" data-toggle="modal"><FONT face="Impact" color = "black"><center>Wartsila UD150V12 - 590 кВт</center></FONT></a>
+         </div>
+      </div>
+      <div id="myModal3" class="modal fade">
+      <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Заголовок модального окна -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">Wartsila UD150V12 - 590 кВт</h4>
+      </div>
+      <!-- Основное содержимое модального окна -->
+      <div class="modal-body">
+      <img src="..\goods\img\thumb_wartisla-ud150v12-590-kva.JPG" align="right" width="220" height="140">
+        Наличие:есть в наличии
+<br>Цена по запросу.<br>
+<br>Состояние: б/у<bt>
+<br>Наработка: 443 часов<br>
+<br>Мощность: 500 кВт<br>
+<a href="#spoiler-4" data-toggle="collapse" class="btn btn-primary">Позвонить и заказать</a>
+<div class="collapse" id="spoiler-4">
+  <div class="well">
+    <p>8(999)999-99-99</p>
+  </div>
+</div>
+      </div>
+      <!-- Футер модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+       <div class= "col-lg-3 col-md-3 col-sm-3">
+      <div class="thumbnail">
+         <img class="img responsive" src="..\goods\img\thumb_wartsila-ud150-620-kva.JPG">
+         <div class="caption">
+           <a href="#myModal4" data-toggle="modal"><FONT face="Impact" color = "black"><center>WARTSILA UD150 - 620 КВТ</center></FONT></a>
+         </div>
+      </div>
+            <div id="myModal4" class="modal fade">
+      <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Заголовок модального окна -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">WARTSILA UD150 - 620 КВТ</h4>
+      </div>
+      <!-- Основное содержимое модального окна -->
+      <div class="modal-body">
+      <img src="..\goods\img\thumb_wartsila-ud150-620-kva.JPG" align="right">
+        Наличие:есть в наличии
+<br>Цена по запросу.<br>
+<br>Год изготовления: 1991 г.<br>
+<br>Состояние: б/у<bt>
+<br>Наработка: 599 часов<br>
+<br>Мощность: 620 кВт<br>
+<a href="#spoiler-5" data-toggle="collapse" class="btn btn-primary">Позвонить и заказать</a>
+<div class="collapse" id="spoiler-5">
+  <div class="well">
+    <p>8(999)999-99-99</p>
+  </div>
+</div>
+      </div>
+      <!-- Футер модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+       <div class= "col-lg-3 col-md-3 col-sm-3">
+      <div class="thumbnail">
+         <img class="img responsive" src="..\goods\img\thumb_mtu-16v2000-900-kva.JPG">
+         <div class="caption">
+           <a href="#myModal5" data-toggle="modal"><FONT face="Impact" color = "black"><center>MTU 16V2000 - 900 КВТ</center></FONT></a>
+         </div>
+      </div>
+            <div id="myModal5" class="modal fade">
+      <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Заголовок модального окна -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">MTU 16V2000 - 900 КВТ</h4>
+      </div>
+      <!-- Основное содержимое модального окна -->
+      <div class="modal-body">
+      <img src="..\goods\img\thumb_mtu-16v2000-900-kva.JPG" align="right">
+        Наличие:есть в наличии
+<br>Цена по запросу.<br>
+<br>Год изготовления: 2007 г.<br>
+<br>Состояние: б/у<bt>
+<br>Наработка: 50 часов<br>
+<br>Мощность: 900 кВт<br>
+<a href="#spoiler-6" data-toggle="collapse" class="btn btn-primary">Позвонить и заказать</a>
+<div class="collapse" id="spoiler-6">
+  <div class="well">
+    <p>8(999)999-99-99</p>
+  </div>
+</div>
+      </div>
+      <!-- Футер модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+       <div class= "col-lg-3 col-md-3 col-sm-3">
+      <div class="thumbnail">
+         <img class="img responsive" src="..\goods\img\thumb_dorman-6setca3-700-kva.JPG">
+         <div class="caption">
+           <a href="#myModal6" data-toggle="modal"><FONT face="Impact" color = "black"><center>DORMAN 6SETCA3 - 700 КВТ</center></FONT></a>
+         </div>
+      </div>
+      <div id="myModal6" class="modal fade">
+      <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Заголовок модального окна -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">DORMAN 6SETCA3 - 700 КВТ</h4>
+      </div>
+      <!-- Основное содержимое модального окна -->
+      <div class="modal-body">
+      <img src="..\goods\img\thumb_dorman-6setca3-700-kva.JPG" align="right">
+        Наличие:есть в наличии
+<br>Цена по запросу.<br>
+<br>Год изготовления: 1993 г.<br>
+<br>Состояние: б/у<bt>
+<br>Наработка: 3600 часов<br>
+<br>Мощность: 700 кВт<br>
+<a href="#spoiler-7" data-toggle="collapse" class="btn btn-primary">Позвонить и заказать</a>
+<div class="collapse" id="spoiler-7">
+  <div class="well">
+    <p>8(999)999-99-99</p>
+  </div>
+</div>
+      </div>
+      <!-- Футер модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+       <div class= "col-lg-3 col-md-3 col-sm-3">
+      <div class="thumbnail">
+         <img class="img responsive" src="..\goods\img\thumb_iveco-8210sri26-220-kva (1).JPG">
+         <div class="caption">
+           <a href="#myModal7" data-toggle="modal"><FONT face="Impact" color = "black"><center>IVECO 8210SRI26 - 220 КВТ</center></FONT></a>
+         </div>
+      </div>
+            <div id="myModal7" class="modal fade">
+      <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Заголовок модального окна -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h4 class="modal-title">IVECO 8210SRI26 - 220 КВТ</h4>
+      </div>
+      <!-- Основное содержимое модального окна -->
+      <div class="modal-body">
+      <img src="..\goods\img\thumb_iveco-8210sri26-220-kva (1).JPG" align="right">
+        Наличие:есть в наличии
+<br>Цена по запросу.<br>
+<br>Год изготовления: 2000 г.<br>
+<br>Состояние: б/у<bt>
+<br>Наработка: 105 часов<br>
+<br>Мощность: 220 кВт<br>
+<a href="#spoiler-8" data-toggle="collapse" class="btn btn-primary">Позвонить и заказать</a>
+<div class="collapse" id="spoiler-8">
+  <div class="well">
+    <p>8(999)999-99-99</p>
+  </div>
+</div>
+      </div>
+      <!-- Футер модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  <footer class="footer">
+    контакты
+  </footer>
+  
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

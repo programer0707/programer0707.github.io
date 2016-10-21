@@ -1,0 +1,49 @@
+.row {
+	margin-bottom: 50px;
+}
+.navbar-inverse {
+    background-color: #e67e22;
+    border-color: #d35400;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+
+@media screen and (max-width: 767px) {
+	.masonry[data-columns]::before {
+		content:'1 .col-xs-12';
+	}
+}
+
+@media screen and (max-width: 768px) and (max-width: 991px) {
+	.masonry[data-columns]::before {
+		content:'2 .col-xs-6';
+	}
+}
+
+@media screen and (max-width: 992px) and (max-width: 1199px) {
+	.masonry[data-columns]::before {
+		content:'3 .col-xs-4';
+	}
+}
+@media screen and (max-width: 1200px) {
+	.masonry[data-columns]::before {
+		content:'3 .col-xs-4';
+	}
+}
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Отступ снизу, по высоте футера */
+	margin-bottom: 120px !important;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Фиксированная высота футера */
+	height: 120px;
+	background-color: #C0C0C0;
+}
